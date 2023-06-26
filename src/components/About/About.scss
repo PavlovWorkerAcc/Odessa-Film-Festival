@@ -1,0 +1,67 @@
+.About_Container{
+    padding: 25px 22px 34px 22px;
+    background-color: #f1f1f1;;
+    .About_Content{
+        display: flex;
+        align-items: center;
+
+        .About_Photo{
+            img{
+                transition: all 300ms ease-in-out;
+                &:hover{
+                    scale: 1.1;
+                };
+            }
+        }
+        .About_Text{
+
+            .About_Label{
+                margin-bottom: 25px;
+
+                span{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+            }
+
+            .About_Description{
+                width: 569px;
+
+                p{
+                   margin-bottom: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 160%;
+                }
+            }
+
+            .About_Btn{
+
+                button{
+                    color: white;
+                    padding: 11px 33px;
+                    border: none;
+                    border-radius: 20px;
+                    background-color: #000000;
+
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 15px;
+
+                    transition: all 300ms ease-in;
+    
+                    &:hover{
+                        
+                        background-color: white;
+                        color: #000000;
+                        scale: 1.1;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.Parthners_Container{
+
+    margin-bottom: 200px;
+    .Parthners_Content{
+       
+        display: flex;
+        flex-direction: column;
+
+
+        .Label{
+            margin-bottom: 60px ;
+            span{
+                color: #CF0032;
+                text-align: center;
+                font-size: 46px;
+                
+                font-weight: 700;
+            }
+        }
+
+        .Main_Content{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 900px;
+            gap: 96px;
+            a{
+                text-decoration: none;
+                color: #000;
+                text-align: center;
+                font-size: 12px;
+                
+                font-weight: 700;
+            }
+            .logo_name{
+                width: 120px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                span{
+                    margin-top: 15px;
+                }
+                
+
+                transition: all 300ms ease-in;
+                cursor: pointer;
+
+                &:hover{
+                    scale: 1.2;
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.Promo_container{
+    padding-bottom: 77px;
+    .Promo_Content{
+        display: flex;
+        align-items: center;
+        padding: 0px 80px 0 80px;
+        .Promo_Text{
+
+
+            .Promo_Label{
+                width: 350px;
+                margin: 0 auto 35px 0;
+
+                .Lable_Main{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 29px;
+
+                    .Lable_Colored{
+                        color: #BC1836;
+                    }
+                }
+            }
+
+            .Promo_Description{
+                width: 450px;
+
+                .Description_Main{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 160%;
+                }
+            }            
+        }
+
+        .Promo_Video{
+            
+
+            iframe{
+                border-radius: 15px;
+            }
+        }
+    }
+}

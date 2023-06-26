@@ -1,0 +1,77 @@
+.Banner_Container{
+    background-color: #BC1836;
+    margin-bottom: 100px;
+    .Banner_Content{
+        display: flex;
+        align-items: center;
+
+        .Banner_Text{
+
+            .Banner_Label{
+                width: 589px;
+                margin-top: 110px;
+                span{
+                    color: white;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 46px;
+                    line-height: 56px;
+                }
+            }
+
+            .Banner_UnderText{
+                width: 370px;
+                margin: 25px auto 40px 0;
+
+                span{
+                    color: white;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 29px;
+                }
+            }
+
+            .Banner_Btns{
+                margin-bottom: 255px;
+                display: flex;
+                gap: 74px;
+
+                .Btn_Promo , .Btn_News{
+                    position: relative;
+                    margin: 0;
+                    padding: 16px 40px;
+                    border-radius: 20px;
+                    background-color: #000000;
+                    border: none;
+                    color: white;
+
+
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 15px;
+
+                    transition: all 300ms ease-in;
+    
+                    &:hover{
+                        
+                        background-color: white;
+                        color: #000000;
+                        scale: 1.1;
+                    }
+                }
+                
+            }
+        }
+
+        .Banner_Photo{
+           
+           img{
+               width: 599px;
+               height: 599px;
+           }
+       }
+    }
+
+}
